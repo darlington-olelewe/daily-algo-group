@@ -20,7 +20,6 @@ public class D2GreatestCommonDivisorOfStringTest {
 
     @Test
     public void gcdOfStrings_toReturn_AB() {
-
         String str1 = "ABABAB";
         String str2 = "ABAB";
 
@@ -31,7 +30,6 @@ public class D2GreatestCommonDivisorOfStringTest {
     }
     @Test
     public void gcdOfStrings_toReturn_empty() {
-
         String str1 = "LEET";
         String str2 = "CODE";
 

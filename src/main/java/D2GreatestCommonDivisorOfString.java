@@ -14,17 +14,15 @@ public class D2GreatestCommonDivisorOfString {
         int left = str1.length();
         int right = str2.length();
 
-        if(right > left){
+        if(right > left)
             return gcdOfStrings(str2,str1);
-        }
 
-        if(str1.equals(str2)){
+        if(str1.equals(str2))
             return str1;
-        }
 
-        if(str1.startsWith(str2)){
+
+        if(str1.startsWith(str2))
             return gcdOfStrings(str2, str1.substring(str2.length()));
-        }
 
         return "";
 
